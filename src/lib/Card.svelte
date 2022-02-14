@@ -20,7 +20,7 @@
 	.image {
 		border-radius: 0.5em;
 		width: 100%;
-		height: 100%;
+    height: 270px;
     margin-bottom: 1em;
 	}
   header, p {
