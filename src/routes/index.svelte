@@ -1,7 +1,9 @@
 <script context="module" lang="ts">
-	import '../app.css';
-	import Card from  '$lib/Card.svelte';
 	export const prerender = true;
+</script>
+
+<script lang="ts">
+	import Card from  '$lib/Card.svelte';
 </script>
 
 <svelte:head>
@@ -30,7 +32,6 @@
 
 	@media screen and (min-width:375px) {
 		.wrapper {
-			width: 375px;
 			margin: 0 auto;
 		}
 	}
